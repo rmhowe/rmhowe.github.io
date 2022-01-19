@@ -16,10 +16,10 @@ jobs:
           persist-credentials: false
 
       - name: Install
-        run: npm install
+        run: yarn install
 
       - name: Build
-        run: npm run build
+        run: yarn build
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
